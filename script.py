@@ -5,9 +5,6 @@ import cv2
 import openai
 import matplotlib.pyplot as plt
 
-# Set your OpenAI API key
-openai.api_key = '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'
-
 # Load pre-trained model from TensorFlow Hub
 MODEL_URL = "https://tfhub.dev/google/mobilenet_v2_100_224/1"  # Change if you prefer another model
 model = hub.load(MODEL_URL)

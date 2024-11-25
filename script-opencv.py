@@ -3,9 +3,6 @@ import pytesseract
 import openai
 import os
 
-# OpenAI API Key
-openai.api_key = "your_openai_api_key"  # Replace with your OpenAI API key
-
 def preprocess_image(image_path):
     """Preprocess the image to detect potential text regions."""
     # Load the image
